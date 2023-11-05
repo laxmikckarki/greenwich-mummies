@@ -1,0 +1,77 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-title {
+    text-align: center;
+  }
+  
+  .login-label {
+    margin-top: 10px;
+  }
+  
+  .login-input {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password-link {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .stay-logged-in-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stay-logged-in-checkbox {
+    margin-right: 5px;
+  }
+  
+  .login-button {
+    margin-top: 10px;
+  }
+  
+  .register-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .register-link {
+    color: blue;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .image-container {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
