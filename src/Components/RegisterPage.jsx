@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Register.css";
+import "./RegisterPage.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";    
 
@@ -52,10 +52,11 @@ useEffect(() =>{
 	if(user){
 		 	navigate("/login");
 		}
-}, [user]);
+}, [user, navigate]);
+  
 	return (
 		<div className="container">
-			<h1>Study Buddies Page</h1>
+			<h1>Greenwich Mums Page</h1>
 			<h2>Register</h2>
 			<form onSubmit={handleSubmit}>
 				<div className="form-group">

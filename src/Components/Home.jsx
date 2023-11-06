@@ -1,8 +1,7 @@
-import React from 'react';
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import image1  from '../Assets/image1.jpg';
+import image2  from '../Assets/image2.jpg';
 
 function Home() {
 	const [message, setMessage] = useState("Loading...");
@@ -33,12 +32,11 @@ function Home() {
         	<div className="content">
          	 <div className="left">
            	 <img
-              className="cyf-image"
-              src={image1}
-
+              className="image"
+              src={image2}
               alt="Community mums group"
             />
-			<image1/>
+			<image2/>
           </div>
         </div>
 	  </div>
