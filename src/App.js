@@ -1,9 +1,10 @@
-import React, { useState }from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Components/Home';
-import Login from './Components/Login';
-import About from './Components/About';
-import RegisterPage from './Components/RegisterPage';
+import Footer from "./Components/Footer";
+import Home from './Page/Home';
+import Login from './Page/Login';
+import About from './Page/About';
+import RegisterPage from './Page/RegisterPage';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/register" element={<RegisterPage setHasAccount={setHasAccount}  />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
