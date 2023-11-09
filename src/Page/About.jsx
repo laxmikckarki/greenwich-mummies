@@ -1,6 +1,6 @@
 import React from 'react';
 import image3  from '../Assets/image3.jpg';
-
+import '../App.css'
 
 const About = () => (
 	<main role="main">

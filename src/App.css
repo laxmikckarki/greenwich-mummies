@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+:root {
+  --main-color: rgb(143,66,136);
+  --secondary-color:rgb(27,146,146);
+  --teritery-color-1:rgb(239,245,247);
+  --teritery-color-2:rgb(27,146,146);
+  --teritery-color-3:rgb(108,176,172);
+  --teritery-color-4:rgb(27,180,116);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* here is an example of how to use these color variables: */
+h1 {
+  color: var(--main-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
