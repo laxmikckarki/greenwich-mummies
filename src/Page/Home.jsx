@@ -39,7 +39,6 @@ function Home() {
               src={image2}
               alt="Community mums group"
             />
-			<image2/>
           </div>
         </div>
 	  </div>
