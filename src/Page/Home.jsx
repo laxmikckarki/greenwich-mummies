@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import image2  from '../Assets/image2.jpg';
