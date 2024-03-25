@@ -14,7 +14,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login setHasAccount={setHasAccount}  />} />
           <Route path="/register" element={<RegisterPage setHasAccount={setHasAccount}  />} />
